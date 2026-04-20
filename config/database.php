@@ -7,8 +7,8 @@
 // Database connection settings
 define('DB_HOST', 'localhost'); // Usually 'localhost' for cPanel
 define('DB_NAME', 'zenix'); // Your cPanel database name
-define('DB_USER', 'zenix'); // Your cPanel database username
-define('DB_PASS', 'S3cUrEP4WORD!!xDDD'); // Your cPanel database password
+define('DB_USER', 'root'); // Your cPanel database username
+define('DB_PASS', 'GgXHyttUAHlqNJdjnelgljzCBpjcxvVc'); // Your cPanel database password
 
 // Application settings
 define('JWT_SECRET', '04c62324a973f7e06cd08815164bb0c6a3a615284947fc23057b4f7bf85b185d2ad4ddcbcf36019c'); // Secure JWT secret key
