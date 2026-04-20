@@ -12,7 +12,7 @@ define('DB_PASS', 'GgXHyttUAHlqNJdjnelgljzCBpjcxvVc'); // Your cPanel database p
 
 // Application settings
 define('JWT_SECRET', '04c62324a973f7e06cd08815164bb0c6a3a615284947fc23057b4f7bf85b185d2ad4ddcbcf36019c'); // Secure JWT secret key
-define('SITE_URL', 'mysql-production-2792.up.railway.app'); // Your zenix External website
+define('SITE_URL', 'https://zenix-production.up.railway.app'); // Your zenix External website
 
 // Admin credentials - SECURE 32-CHAR PASSWORD
 define('ADMIN_USERNAME', 'Prox');
