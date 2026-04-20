@@ -15,8 +15,8 @@ define('JWT_SECRET', '04c62324a973f7e06cd08815164bb0c6a3a615284947fc23057b4f7bf8
 define('SITE_URL', 'https://zenix-production.up.railway.app'); // Your zenix External website
 
 // Admin credentials - SECURE 32-CHAR PASSWORD
-define('ADMIN_USERNAME', 'Prox');
-define('ADMIN_PASSWORD', 'Ducky1919@'); // 32-char secure password
+define('ADMIN_USERNAME', 'admin');
+define('ADMIN_PASSWORD', 'password');
 
 // File upload settings
 define('MAX_FILE_SIZE', 100 * 1024 * 1024); // 100MB
