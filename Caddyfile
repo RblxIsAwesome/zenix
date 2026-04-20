@@ -1,0 +1,21 @@
+{
+  order php_fastcgi before file_serve
+}
+
+:8080 {
+  root * /workspace
+  
+  # Enable PHP
+  php_fastcgi 127.0.0.1:9000
+  
+  # Serve files
+  file_serve
+  
+  # Allow all methods for PHP files
+  @php {
+    path *.php
+  }
+  handle @php {
+    php_fastcgi 127.0.0.1:9000
+  }
+}
